@@ -1,0 +1,134 @@
+
+body {
+  background: lightcyan;
+  font-family: 'Finlandica', sans-serif;
+  margin: auto;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  padding: 25px 0 25px 0;
+  background: black;
+  overflow: auto;
+}
+
+/*Title Amazeriffic*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 3em;
+  color: white;
+  float: left;
+  width: 570px;
+}
+
+/* Heading & Footer */
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+header nav {
+  float: right;
+}
+
+a {
+  color: #f00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
+}
+main {
+    background: black;
+    border-radius: 0 5px 5px 5px;;
+    padding: 40px;
+}
+
+.tabs a span {
+  display: inline-block;
+   border-radius: 5px 5px 0 0;
+   width: 100px;
+   margin-right: 10px;
+   text-align: center;
+   background: #eee;
+   padding: 5px;
+
+}
+
+.tabs a .active {
+    background: #ddd;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #ddd;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+
+main .content input {
+    font-size: 1.5rem;
+}
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 285px;
+  color:red;
+}
+
+footer .contact .address {
+  color: black;
+  font-style: italic;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+}
+
+footer ul {
+    width: 285px;
+}
+
+li {
+    list-style: none;
+}
+#left {
+  float:left;
+}
+#right {
+  float:right;
+}
